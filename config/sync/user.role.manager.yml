@@ -1,0 +1,22 @@
+uuid: 7176391f-b74b-4215-a58a-d12cd85dc6fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.projects
+  module:
+    - node
+    - shortcut
+    - toolbar
+    - tour
+id: manager
+label: Manager
+weight: 4
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'access tour'
+  - 'administer shortcuts'
+  - 'create projects content'
+  - 'edit any projects content'
+  - 'edit own projects content'
