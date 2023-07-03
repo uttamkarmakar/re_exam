@@ -1,0 +1,26 @@
+uuid: dd09b23b-13ef-4f91-b1ca-2932402fe0eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.projects.field_developer_associated
+    - field.field.node.projects.field_project_description
+    - field.field.node.projects.field_skills_required
+    - node.type.projects
+  module:
+    - user
+id: node.projects.teaser
+targetEntityType: node
+bundle: projects
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_developer_associated: true
+  field_project_description: true
+  field_skills_required: true

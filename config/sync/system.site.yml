@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: d9dfddb7-b2b6-4854-8d45-e80ad2b649bc
+name: 'Drupal Exam'
+mail: uttam.karmakar@innoraft.com
+slogan: ''
+page:
+  403: /node/7
+  404: /node/8
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

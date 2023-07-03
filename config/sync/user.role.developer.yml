@@ -1,0 +1,19 @@
+uuid: 3eb85ba1-848a-40f9-af35-9090b8e8049e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.projects
+  module:
+    - node
+    - toolbar
+    - tour
+id: developer
+label: Developer
+weight: 5
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'access tour'
+  - 'view own unpublished content'
+  - 'view projects revisions'

@@ -1,0 +1,8 @@
+uuid: 5f88f66e-0371-4110-9878-4692cdc2115a
+langcode: en
+status: true
+dependencies: {  }
+name: Skills
+vid: skills
+description: 'Use this to categorize developer skills'
+weight: 0
